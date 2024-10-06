@@ -1,7 +1,7 @@
 export default function returnHowManyArguments(...theArgs) {
   let lenght = 0;
-  for (const arg of theArgs) {
-    lenght++;
+  while(len < theArgs.length) {
+    len += 1;
   }
-  return lenght;
+  return len;
 }
