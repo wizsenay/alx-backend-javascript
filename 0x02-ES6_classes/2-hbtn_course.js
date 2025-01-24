@@ -5,7 +5,7 @@ class HolbertonCourse {
     this.length = length;
     this.students = students;
   }
-  
+
   // name
   get name() {
     return this._name;
@@ -48,5 +48,5 @@ class HolbertonCourse {
     }
   }
 }
- 
+
 export default HolbertonCourse;
